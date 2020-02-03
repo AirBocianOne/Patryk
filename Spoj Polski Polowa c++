@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+string wyraz;
+int dlugosc,t,k;
+int main()
+{
+   cin>>t ;
+   while (t--)
+   {
+
+
+   cin>> wyraz;
+
+   dlugosc=wyraz.length();
+   k=dlugosc/2;
+   for (int i=0;i<=k-1;i++)
+   {
+
+
+   cout <<wyraz[i]   ;
+   }
+   cout << endl;
+   }
+    return 0;
+}
