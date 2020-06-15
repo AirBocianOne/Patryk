@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float n;
+    cin>>n;
+float suma=0;
+float makskasa=0;
+float c;
+    while (n--)
+    {
+         cin >>c;
+        suma+=c;
+
+
+    if (makskasa<suma)
+    {
+         makskasa=suma;
+    }
+
+
+    if (0>suma)
+        {
+             suma=0;
+        }
+    }
+    cout<<makskasa << endl ;
+    return 0;
+}
