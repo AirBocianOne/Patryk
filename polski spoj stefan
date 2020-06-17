@@ -1,26 +1,29 @@
 #include <iostream>
-
+ 
 using namespace std;
-
+ 
 int main()
 {
-    float n;
+    cout.setf(ios::fixed);
+cout.precision(0);
+ 
+    int  n,c;
     cin>>n;
-float suma=0;
-float makskasa=0;
-float c;
+long double suma=0;
+long double makskasa=0;
+ 
     while (n--)
     {
          cin >>c;
         suma+=c;
-
-
+ 
+ 
     if (makskasa<suma)
     {
          makskasa=suma;
     }
-
-
+ 
+ 
     if (0>suma)
         {
              suma=0;
